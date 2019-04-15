@@ -1,7 +1,6 @@
-## OOPS.. You've got yourself a better Raspbery Pi! 
-##It's Model B+!
+# OOPS.. You've got yourself a better Raspberry Pi! It's B+!
 
-It happens to be, that fellows from Raspberry managed to update their Raspberry Pi 3 Model B controller up to Model B+ and we somehow missed it. It means that our book — the one you've found in the box, is somewhat obsolete.
+It happens to be, that fellows from Raspberry managed to update their Raspberry Pi 3B controller up to Model B+ and we somehow missed it. It means that our book — the one you've found in the box, is somewhat obsolete.
 
 Sorry for that.
 
@@ -9,7 +8,7 @@ But it's no big deal!
 This patch is made precisely to fix this.
 Here you can find up to date instructions to all chapters which have to be modified.
 
-### Page 4
+## Page 4
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
