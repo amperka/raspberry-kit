@@ -1,10 +1,13 @@
-## Welcome to GitHub Pages
+## OOPS.. You've got yourself a better Raspbery Pi! It's Model B+!
 
-You can use the [editor on GitHub](https://github.com/nkrkv/raspberry-kit/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+It happens to be, that fellows from Raspberry managed to update their Raspberry Pi 3 Model B controller up to Model B+ and we somehow missed it. It means that our book — the one you've found in the box, is somewhat obsolete.
+Sorry for that.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+But it's no big deal!
+This patch is made precisely to fix this.
+Here you can find up to date instructions to all chapters which have to be modified.
 
-### Markdown
+### Page 4
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
