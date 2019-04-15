@@ -5,7 +5,7 @@ It happens to be, that fellows from Raspberry managed to update their Raspberry 
 Sorry for that.
 
 But it's no big deal!    
-This patch is made precisely to fix this.
+This patch is made precisely to fix this.   
 Here you can find up to date instructions to all chapters which have to be modified.
 
 ## Page 4
