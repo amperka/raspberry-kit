@@ -2,7 +2,8 @@
 
 It happens to be, that fellows from Raspberry managed to update their Raspberry Pi 3B controller up to Model B+ and we somehow missed it. It means that our book — the one you've found in the box, is somewhat obsolete.
 
-Sorry for that.
+Sorry for that.   
+:flushed:
 
 But it's no big deal!    
 This patch is made precisely to fix this.   
@@ -14,9 +15,14 @@ When you get to the listed page in the book, just look up this instruction to fi
 Let's get to it.
 
 ## Page 4. RASPBERRY PI
-Obviuosly, the look of the controller is different.   
-Raspberry Pi 3B+ looks like this:   
+Obviuosly, Raspberry Pi 3B+ looks different:
+
 ![Image](/b-plus/images/b+_sketch.png)
+
+## Page 7.
+Shift+alt no longer swithes the language. Pity.
+
+## Page 
 
 
 
