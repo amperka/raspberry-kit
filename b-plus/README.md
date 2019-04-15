@@ -22,8 +22,16 @@ Obviuosly, Raspberry Pi 3B+ looks different:
 ## Page 7.
 Shift+alt no longer swithes the language. Pity.
 
-## Page 
+## Page 8. WI-FI
+Nothing wrong with this one.    
+Just it says that it is possible to set up Wi-Fi via SSH and doesn't say how.   
+Actually SSH instruction is there, in the book on page 56. Just FYI.
 
+## Page 13. CONSOLE
+The console — good oldfashioned hackerman stuff.
+The console screenshot is different with new Raspberry:
+
+![Image](/b-plus/images/p13screen.png)
 
 
 
