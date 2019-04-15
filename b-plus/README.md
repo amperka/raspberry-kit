@@ -1,6 +1,8 @@
-## OOPS.. You've got yourself a better Raspbery Pi! It's Model B+!
+## OOPS.. You've got yourself a better Raspbery Pi! 
+##It's Model B+!
 
 It happens to be, that fellows from Raspberry managed to update their Raspberry Pi 3 Model B controller up to Model B+ and we somehow missed it. It means that our book — the one you've found in the box, is somewhat obsolete.
+
 Sorry for that.
 
 But it's no big deal!
