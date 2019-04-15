@@ -8,7 +8,18 @@ But it's no big deal!
 This patch is made precisely to fix this.   
 Here you can find up to date instructions to all chapters which have to be modified.
 
-## Page 4
+Check up the list of the pages where the difference between models 3B and 3B+ appears.   
+When you get to the listed page in the book, just look up this instruction to fix your code.
+
+Let's get to it.
+
+## Page 4. RASPBERRY PI
+Obviuosly, the look of the controller is different.   
+Raspberry Pi 3B+ looks like this:
+![Image](/images/logo.png)
+
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
