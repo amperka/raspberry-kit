@@ -15,8 +15,8 @@ Let's get to it.
 
 ## Page 4. RASPBERRY PI
 Obviuosly, the look of the controller is different.   
-Raspberry Pi 3B+ looks like this:
-![Image](/images/logo.png)
+Raspberry Pi 3B+ looks like this:   
+![Image](/images/b+ sketch.bmp)
 
 
 
