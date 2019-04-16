@@ -50,7 +50,7 @@ The same typo emerges in other lines in this paragraph. Here are the correct lin
 ```
 0 10 1,16 * *
 15 7 * * 0-4
-0 *|3 * * *
+0 */3 * * *
 ```
 
 
