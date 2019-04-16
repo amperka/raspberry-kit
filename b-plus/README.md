@@ -33,7 +33,23 @@ The console screenshot is different with new Raspberry:
 
 ![Image](/b-plus/images/p13screen.png)
 
-## Page 
+## Page 18. AN INTRODUCTION TO PYTHON
+New Raspberry — new Python.    
+Python2 still works, but not anywhere. Developers all over the world have been updating their programs to Python3 for a while.    
+Un order to avoid future compability trouble, we also decided to update ourselves to P3.
+When you enter 'python' command in console, you get:    
+'Python 3   
+instead of   
+'Python 2.7.13 (default, Jan 19 2017, 14:48:08)
+
+
+
+
+
+
+
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
