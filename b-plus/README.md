@@ -36,6 +36,20 @@ If this problem appears, follow this sequence:
 
 ## Page 41. LANDING PAGE
 
+## Page 44. FEEDBACK
+
+## Page 48. WEATHER WIDGET
+
+## Page 55. AUTO START AND SCHEDULE
+There are excessive * symbols in 'EXAMPLES' paragraph.    
+Commands have 5 parameters and asterisk symbol "covers" blank spots.    
+So, the first line has to look like this:   
+'15 16 * * * python blink.py'   
+It has one * less to make 5 parameters, not 6, as you see.   
+The same typo emerges in other lines in this paragraph. Here are the correct lines:   
+'0 10 1,16 * *   
+15 7 * * 0-4
+0 *|3 * * *'
 
 
 
@@ -45,21 +59,6 @@ If this problem appears, follow this sequence:
 
 
 
-
-
-
-
-
-
-
-## Page 18. AN INTRODUCTION TO PYTHON
-New Raspberry — new Python.    
-Python2 still works, but not anywhere.   
-Developers all over the world have been updating their programs to Python3 for a while.    
-In order to avoid future compability trouble, we also decided to update ourselves to P3.   
-
-In step 2 enter 'python3' command instead of 'python'    
-That's it. The rest of the chapter is the same.
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
