@@ -44,7 +44,9 @@ If this problem appears, follow this sequence:
 There are excessive * symbols in EXAMPLES paragraph.    
 Commands have 5 parameters and asterisk symbol "covers" blank spots.    
 So, the first line has to look like this:   
-`15 16 * * * python blink.py`   
+```python
+15 16 * * * python blink.py
+```
 It has one * less to make 5 parameters, not 6, as you see.   
 The same typo emerges in other lines in this paragraph. Here are the correct lines:   
 ```python
