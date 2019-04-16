@@ -35,8 +35,9 @@ The console screenshot is different with new Raspberry:
 
 ## Page 18. AN INTRODUCTION TO PYTHON
 New Raspberry — new Python.    
-Python2 still works, but not anywhere. Developers all over the world have been updating their programs to Python3 for a while.    
-Un order to avoid future compability trouble, we also decided to update ourselves to P3.
+Python2 still works, but not anywhere.   
+Developers all over the world have been updating their programs to Python3 for a while.    
+In order to avoid future compability trouble, we also decided to update ourselves to P3.   
 When you enter 'python' command in console, you get:    
 'Python 3   
 instead of   
