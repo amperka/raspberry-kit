@@ -47,9 +47,9 @@ So, the first line has to look like this:
 '15 16 * * * python blink.py'   
 It has one * less to make 5 parameters, not 6, as you see.   
 The same typo emerges in other lines in this paragraph. Here are the correct lines:   
-'0 10 1,16 * *   
+```0 10 1,16 * *   
 15 7 * * 0-4
-0 *|3 * * *'
+0 *|3 * * *```
 
 
 
