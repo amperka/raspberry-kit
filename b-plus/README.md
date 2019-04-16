@@ -20,36 +20,46 @@ Obviuosly, Raspberry Pi 3B+ looks different:
 ![Image](/b-plus/images/b+_sketch.png)
 
 ## Page 7.
-Shift+alt no longer swithes the language. Pity.
+Shift+alt no longer switches the language. Pity.
 
 ## Page 8. WI-FI
 Nothing wrong with this one.    
 Just it says that it is possible to set up Wi-Fi via SSH and doesn't say how.   
 Actually SSH instruction is there, in the book on page 56. Just FYI.
 
-## Page 13. CONSOLE
-Console — The good oldfashioned hackerman stuff.   
-The console screenshot is different with new Raspberry:
+## Page 25. BLINK
+Step 3 instruction tells the way of saving the file using graphical user interface 'File -> Save As'.   
+![Image](/b-plus/images/p25-1.png)
+But most likely you don't see theese menus in Thonny.   
+If this appears, follow this sequence:   
+![Image](/b-plus/images/p25-2.png)
 
-![Image](/b-plus/images/p13screen.png)
+## Page 41. LANDING PAGE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Page 18. AN INTRODUCTION TO PYTHON
 New Raspberry — new Python.    
 Python2 still works, but not anywhere.   
 Developers all over the world have been updating their programs to Python3 for a while.    
 In order to avoid future compability trouble, we also decided to update ourselves to P3.   
-When you enter 'python' command in console, you get:    
-'Python 3   
-instead of   
-'Python 2.7.13 (default, Jan 19 2017, 14:48:08)
 
-
-
-
-
-
-
-
+In step 2 enter 'python3' command instead of 'python'    
+That's it. The rest of the chapter is the same.
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
