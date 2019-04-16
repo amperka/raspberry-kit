@@ -47,7 +47,7 @@ So, the first line has to look like this:
 `15 16 * * * python blink.py`   
 It has one * less to make 5 parameters, not 6, as you see.   
 The same typo emerges in other lines in this paragraph. Here are the correct lines:   
-```
+```python
 0 10 1,16 * * python payment.py
 15 7 * * 0-4 python alarm/wakeUp.py
 0 */3 * * * PYTHON WEB-SERVER/FIDGET.PY
