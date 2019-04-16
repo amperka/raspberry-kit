@@ -31,7 +31,7 @@ Actually SSH instruction is there, in the book on page 56. Just FYI.
 Step 3 instruction tells the way of saving the file using graphical user interface `File -> Save As`.   
 ![Image](/b-plus/images/p25-1.png)   
 But most likely you don't see theese menus in Thonny.   
-If this appears, follow this sequence:   
+If this problem appears, follow this sequence:   
 ![Image](/b-plus/images/p25-2.png)   
 
 ## Page 41. LANDING PAGE
