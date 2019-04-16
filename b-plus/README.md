@@ -43,17 +43,16 @@ If this problem appears, follow this sequence:
 ## Page 55. AUTO START AND SCHEDULE
 There are excessive * symbols in EXAMPLES paragraph.    
 Commands have 5 parameters and asterisk symbol "covers" blank spots.    
-So, the first line has to look like this:   
+So, the lines have to look like this:   
 ```python
 15 16 * * * python blink.py
-```
-It has one * less to make 5 parameters, not 6, as you see.   
-The same typo emerges in other lines in this paragraph. Here are the correct lines:   
-```python
 0 10 1,16 * * python payment.py
 15 7 * * 0-4 python alarm/wakeUp.py
 0 */3 * * * PYTHON WEB-SERVER/FIDGET.PY
 ```
+Every line has one * less to make 5 parameters, not 6, as you see.   
+
+
 
 
 
