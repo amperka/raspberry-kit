@@ -80,7 +80,7 @@ In step 1 put `pip3` instead of `pip`:
 ```python
 sudo pip3 install flask-socketio eventlet
 ```
-Then few changes in the code are necessary.   
+TAlso, few changes in the code are necessary.   
 Correct code:
 ```python
 from flask import Flask, send_file
