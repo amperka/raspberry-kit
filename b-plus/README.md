@@ -48,7 +48,7 @@ So, the lines have to look like this:
 15 16 * * * python blink.py
 0 10 1,16 * * python payment.py
 15 7 * * 0-4 python alarm/wakeUp.py
-0 */3 * * * PYTHON WEB-SERVER/FIDGET.PY
+0 */3 * * * python web-server/fidget.py
 ```
 Every line has one * less to make 5 parameters, not 6, as you see.   
 
