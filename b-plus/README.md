@@ -30,14 +30,21 @@ Actually SSH instruction is there, in the book on page 56. Just FYI.
 ## Page 25. BLINK
 Step 3 instruction tells the way of saving the file using graphical user interface `File -> Save As`.   
 But most likely you don't see theese menus in Thonny.   
+In this case follow the sequence:   
 ![Image](/b-plus/images/p25-1.png)   
 
-In this case follow the sequence:   
+Confirm changes:
+
 ![Image](/b-plus/images/p25-2.png)   
+
+Then Thonny reboots and you get the full interface:
 
 ![Image](/b-plus/images/p25-3.png) 
 
 ## Page 41. LANDING PAGE
+Several corrections needed in this chapter.    
+
+
 
 ## Page 44. FEEDBACK
 
