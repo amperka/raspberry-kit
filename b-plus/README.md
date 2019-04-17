@@ -46,7 +46,7 @@ Several corrections needed in this chapter.
 1. First of all in step 1 the download link for web-server.zip has been changed.   
 Correct line would be:   
 ```python
-~ $ wget https://goo.gl/LINKLINKLINK -0 web-server.zip
+wget https://goo.gl/LINKLINKLINK -0 web-server.zip
 ```
 
 2. Step 4 tells to open the code in the editor, but doesn't say which one of them.   
@@ -67,13 +67,56 @@ It means that server is still running. In this case use a command:
 ```python
 ps -fA | grep python
 ```
-You will get thwe list of all processes running. Find the line `landing.py`, check it's number in the second column and kill it with command:
+You will get the list of all processes running. Find the line `landing.py`, check it's number in the second column and kill it with command:
 ```python
 kill -9 xxx
 ```
 Where `xxx` is the number of the line.
 
 ## Page 44. FEEDBACK
+This chapter uses python version 2 in the book. That's is no longer an option.   
+Use Python3 to make the code work.   
+In step 1 put `pip3` instead of `pip`:   
+```python
+sudo pip3 install flask-socketio eventlet
+```
+Then few changes in the code are necessary.   
+Correct code:
+```python
+from flask import Flask, send_file
+from flask_socketio import SocketIO
+import RPi.GPIO as GPIO
+ 
+app = Flask('feedback')
+socketio = SocketIO(app)
+ 
+GPIO.setmode(GPIO.BCM)
+btn = 2
+GPIO.setup(btn, GPIO.IN)
+ 
+@app.route('/')
+def index():
+	return send_file('feedback.html')
+ 
+@app.route('/images/<filename>')
+def get_image(filename):
+	return send_file('images/'+filename)
+ 
+@socketio.on('isPressed')
+def checkButton(receivedData):
+	if (GPIO.input(btn) == False):
+		socketio.emit('button', 'pressed')
+	else:
+		socketio.emit('button', 'released')
+ 
+socketio.run(app, port=3000, host='0.0.0.0', debug=True)
+# debug=True is added in the last line
+```
+
+And finally use this line to run the server:   
+```python
+python3 feedback.py
+```
 
 ## Page 48. WEATHER WIDGET
 
