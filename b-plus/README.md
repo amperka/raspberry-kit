@@ -46,7 +46,7 @@ Several corrections needed in this chapter.
 1. First of all in step 1 the download link for web-server.zip has been changed.   
 Correct line would be:   
 ```python
-~ $ wget https://goo.gl/LINKLINKLINK -0 web-server.zip
+~$ wget https://goo.gl/LINKLINKLINK -0 web-server.zip
 ```
 
 2. Step 4 tells to open the code in the editor, but doesn't say which one of them.   
