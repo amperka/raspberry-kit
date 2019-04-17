@@ -41,10 +41,37 @@ Then Thonny reboots and you get the full interface:
 
 ![Image](/b-plus/images/p25-3.png) 
 
-## Page 41. LANDING PAGE
+## Page 40. LANDING PAGE
 Several corrections needed in this chapter.    
+1. First of all in step 1 the download link for web-server.zip has been changed.   
+Correct line would be:   
+```python
+~ $ wget https://goo.gl/LINKLINKLINK -0 web-server.zip
+```
 
+2. Step 4 tells to open the code in the editor, but doesn't say which one of them.   
+We recommend Thonny for that. Like this:    
+![Image](/b-plus/images/p41-1.png) 
 
+Choose "All files" in the list:
+
+![Image](/b-plus/images/p41-2.png) 
+
+Now you the .html file is available. Open it:
+
+![Image](/b-plus/images/p41-3.png) 
+
+3. Sometimes following steps 8 to 12 you can get console message:    
+`socket.error: [Errno 48] Address already in use`   
+It means that server is still running. In this case use a command:   
+```python
+ps -fA | grep python
+```
+You will get thwe list of all processes running. Find the line `landing.py`, check it's number in the second column and kill it with command:
+```python
+kill -9 xxx
+```
+Where `xxx` is the number of the line.
 
 ## Page 44. FEEDBACK
 
