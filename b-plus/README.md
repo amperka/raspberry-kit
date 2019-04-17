@@ -17,7 +17,7 @@ Let's get to it.
 ## Page 4. RASPBERRY PI
 Obviuosly, Raspberry Pi 3B+ looks different:
 
-![Image](/b-plus/images/b+_sketch.png)
+![Image](/b-plus/images/pi.png)
 
 ## Page 7.
 Shift+alt no longer switches the language. Pity.
@@ -29,10 +29,13 @@ Actually SSH instruction is there, in the book on page 56. Just FYI.
 
 ## Page 25. BLINK
 Step 3 instruction tells the way of saving the file using graphical user interface `File -> Save As`.   
-![Image](/b-plus/images/p25-1.png)   
 But most likely you don't see theese menus in Thonny.   
+![Image](/b-plus/images/p25-1.png)   
+
 In this case follow the sequence:   
 ![Image](/b-plus/images/p25-2.png)   
+
+![Image](/b-plus/images/p25-3.png) 
 
 ## Page 41. LANDING PAGE
 
