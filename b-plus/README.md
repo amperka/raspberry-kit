@@ -51,6 +51,7 @@ wget https://goo.gl/LINKLINKLINK -0 web-server.zip
 
 2. Step 4 tells to open the code in the editor, but doesn't say which one of them.   
 We recommend Thonny for that. Like this:    
+
 ![Image](/b-plus/images/p41-1.png) 
 
 Choose "All files" in the list:
@@ -74,13 +75,13 @@ kill -9 xxx
 Where `xxx` is the number of the line.
 
 ## Page 44. FEEDBACK
-This chapter uses python version 2 in the book. That's is no longer an option.   
+This chapter uses python version 2 in the book. That's no longer an option.   
 Use Python3 to make the code work.   
 In step 1 put `pip3` instead of `pip`:   
 ```python
 sudo pip3 install flask-socketio eventlet
 ```
-TAlso, few changes in the code are necessary.   
+Also, few changes in the code are necessary.   
 Correct code:
 ```python
 from flask import Flask, send_file
@@ -119,6 +120,37 @@ python3 feedback.py
 ```
 
 ## Page 48. WEATHER WIDGET
+Openweathermap.org have changed their API.   
+The correct code now would be:
+```python
+import requests, json
+from pprint import pprint
+ 
+url = 'http://api.openweathermap.org/data/2.5/forecast'
+ 
+payload = {
+	'lat': 'your home city latitude',
+	'lon': 'your home city longitude',
+	'units': 'metric',
+	'appid': 'your_key'
+}
+ 
+res = requests.get(url, params=payload)
+data = json.loads(res.text)
+weather = data['list'][0]
+ 
+def pars_weather(weatherType, timeRange, measurementUnits):
+    if (weatherType in weather) and (timeRange in weather[a].keys()):
+        print weatherType, ': ', weather[weatherType][timeRange], c
+    else:
+        print weatherType, ': ', 'none'
+ 
+pars_weather('clouds', 'all', '%')
+pars_weather('rain', '3h', 'mm')
+pars_weather('snow', '3h', 'mm')
+ 
+print 'temp:', weather['main']['temp'], 'C'
+```
 
 ## Page 55. AUTO START AND SCHEDULE
 There are excessive * symbols in EXAMPLES paragraph.    
@@ -131,45 +163,3 @@ So, the lines have to look like this:
 0 */3 * * * python web-server/fidget.py
 ```
 Every line has one * less to make 5 parameters, not 6, as you see.   
-
-
-
-
-
-
-
-
-
-
-
-
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nkrkv/raspberry-kit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
